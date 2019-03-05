@@ -1,6 +1,8 @@
 html {
     font-size:18px;
-    background-color: #c0ffee;
+    /* font family from article re dyslexia */
+    font-family: Helvetica, Courier, Arial, Verdana;
+    background-color: #ccc;
     padding:0px;
     margin:0px;
 }
@@ -9,7 +11,6 @@ body {
     padding:0px;
     margin:0px;
 }
-
 div.mantra {
     text-align: center;
 }
@@ -45,4 +46,20 @@ footer ul {
     margin:0px;
     list-style-type: none;
     text-align: center;
+}
+
+@media screen and (min-width: 980px) {
+    div.wrapper {
+        position: relative;
+        overflow: display;
+    }
+    
+    div.mantra {
+        display:inline-block;
+        width:49%;
+    }
+    div.face {
+        display:inline-block;
+        width:49%;
+    }
 }
