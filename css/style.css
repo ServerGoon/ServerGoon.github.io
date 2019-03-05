@@ -1,0 +1,48 @@
+html {
+    font-size:18px;
+    background-color: #c0ffee;
+    padding:0px;
+    margin:0px;
+}
+
+body {
+    padding:0px;
+    margin:0px;
+}
+
+div.mantra {
+    text-align: center;
+}
+span.keyword {
+    font-size:2rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+div.profileImage {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+div.profileImage img {
+    width:100%;
+}
+
+div.contactForm {
+    padding:10px
+}
+
+footer {
+    border-top: 1px solid #777;
+    padding:10px;
+}
+
+footer ul {
+    padding:0px;
+    margin:0px;
+    list-style-type: none;
+    text-align: center;
+}
