@@ -4,7 +4,7 @@ html {
     font-family: Helvetica, Courier, Arial, Verdana;
     background-color: #ccc;
     padding:0px;
-    margin:0px;
+    margin:0px auto;
 }
 
 body {
@@ -49,17 +49,26 @@ footer ul {
 }
 
 @media screen and (min-width: 980px) {
+    body {
+        max-width:1028px;
+        margin:0 auto;
+    }
+
     div.wrapper {
-        position: relative;
-        overflow: display;
+        display:flex;
+        padding-top: 1em;
     }
     
     div.mantra {
-        display:inline-block;
-        width:49%;
+        flex: 1;
     }
+
+    div.mantra p {
+        margin-block-start: 0;
+    }
+
     div.face {
-        display:inline-block;
-        width:49%;
+        
+        flex:1;
     }
 }
